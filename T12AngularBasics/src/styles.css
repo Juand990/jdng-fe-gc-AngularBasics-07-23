@@ -1,0 +1,139 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: blanchedalmond;
+}
+.calc {
+  width: 50vw;
+  height: 40vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.divArriba {
+  grid-row: 1/2;
+  grid-column: 1/6;
+}
+#iArriba {
+  font-size: xx-large;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+#iAbajo {
+  font-size: xx-large;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  pointer-events: none;
+}
+.divAbajo {
+  grid-row: 2/3;
+  grid-column: 1/6;
+}
+.btn-siete,
+.btn-ocho,
+.btn-nueve,
+.btn-cuatro,
+.btn-cinco,
+.btn-seis,
+.btn-uno,
+.btn-dos,
+.btn-tres,
+.btn-coma,
+.btn-cero,
+.btn-dblCero {
+  background-color: rgb(194, 102, 102);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.btn-borrar,
+.btn-div,
+.btn-mult,
+.btn-resta,
+.btn-suma,
+.btn-igual {
+  background-color: rgb(64, 53, 53);
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.siete {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.ocho {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.nueve {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+.cuatro {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.cinco {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+.seis {
+  grid-row: 4/5;
+  grid-column: 3/4;
+}
+.uno {
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+.dos {
+  grid-row: 5/6;
+  grid-column: 2/3;
+}
+.tres {
+  grid-row: 5/6;
+  grid-column: 3/4;
+}
+.coma {
+  grid-row: 6/7;
+  grid-column: 1/2;
+}
+.cero {
+  grid-row: 6/7;
+  grid-column: 2/3;
+}
+.dblCero {
+  grid-row: 6/7;
+  grid-column: 3/4;
+}
+.simbolos {
+  grid-row: 3/7;
+  grid-column: 4/5;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+.borrar {
+  grid-column: 1/2;
+  grid-column: 1/2;
+}
+.div {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.mult {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.resta {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.suma {
+  grid-row: 5/6;
+  grid-column: 1/2;
+}
+.igual {
+  grid-row: 6/7;
+  grid-column: 1/2;
+}

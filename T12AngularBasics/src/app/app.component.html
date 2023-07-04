@@ -1,0 +1,77 @@
+<div class="row">
+  <div class="col"></div>
+  <div class="col">
+    <div class="calc">
+      <div class="divArriba">
+        <input id="iArriba" type="text" value="{{valor}}">
+      </div>
+      <div class="divAbajo">
+        <input id="iAbajo" type="text" value="{{resultado}}">
+      </div>
+      <div class="siete">
+        <button (click)="onSiete()"  class="btn-siete" type="button">7</button>
+      </div>
+      <div class="ocho">
+        <button (click)="onOcho()" class="btn-ocho" type="button">8</button>
+      </div>
+      <div class="nueve">
+        <button (click)="onNueve()" class="btn-nueve" type="button">9</button>
+      </div>
+      <div class="cuatro">
+        <button (click)="onCuatro()" class="btn-cuatro" type="button">4</button>
+      </div>
+      <div class="cinco">
+        <button (click)="onCinco()" class="btn-cinco" type="button">5</button>
+      </div>
+      <div class="seis">
+        <button (click)="onSeis()" class="btn-seis" type="button">6</button>
+      </div>
+      <div class="uno">
+        <button (click)="onUno()" class="btn-uno" type="button">1</button>
+      </div>
+      <div class="dos">
+        <button (click)="onDos()" class="btn-dos" type="button">2</button>
+      </div>
+      <div class="tres">
+        <button (click)="onTres()" class="btn-tres" type="button">3</button>
+      </div>
+      <div class="coma">
+        <button (click)="onComa()" class="btn-coma" type="button">,</button>
+      </div>
+      <div class="cero">
+        <button (click)="onCero()" class="btn-cero" type="button">0</button>
+      </div>
+      <div class="dblCero">
+        <button (click)="onDblCero()" class="btn-dblCero" type="button">00</button>
+      </div>
+      <div class="simbolos">
+        <div class="borrar">
+          <button (click)="onBorrar()" class="btn-borrar" type="button">C</button>
+        </div>
+        <div class="div">
+          <button (click)="onDiv()" class="btn-div" type="button">/</button>
+        </div>
+        <div class="mult">
+          <button (click)="onMult()" class="btn-mult" type="button">X</button>
+        </div>
+        <div class="resta">
+          <button (click)="onResta()" class="btn-resta" type="button">-</button>
+        </div>
+        <div class="suma">
+          <button (click)="onSuma()" class="btn-suma" type="button">+</button>
+        </div>
+        <div class="igual">
+          <button (click)="onIgual()" class="btn-igual" type="button">=</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="col"></div>
+</div>
+
+
+
+
+
+<router-outlet></router-outlet>
